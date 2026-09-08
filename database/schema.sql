@@ -6,8 +6,7 @@ CREATE TABLE cards (
     hp INTEGER,
     attack_name VARCHAR(100),
     attack_damage INTEGER
-);
-
+);  nmb
 CREATE TABLE players (
     player_id SERIAL PRIMARY KEY,
     player_name VARCHAR(100) NOT NULL
